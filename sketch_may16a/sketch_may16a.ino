@@ -36,7 +36,7 @@ void flashSequence(char *sequence)
   while(sequence[i] != NULL)
   {
     flashDot(sequence[i]);
-    i++
+    i++;
   }
   delay(dotDelay * 3);
 }
